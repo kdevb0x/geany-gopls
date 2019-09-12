@@ -7,6 +7,7 @@ package geanygopls
 /*
 #cgo pkg-config: --static geany
 
+#include <stdlib.h>
 #include <geany/geanyplugin.h>
 #include <geany/plugindata.h>
 
@@ -17,6 +18,6 @@ import "C"
 type GeanyPlugin C.GeanyPlugin
 
 //export geany_load_module
-func geany_load_module(plugin *C.GeanyPlugin) {
+func geany_load_module(plugin *GeanyPlugin) {
 
 }
