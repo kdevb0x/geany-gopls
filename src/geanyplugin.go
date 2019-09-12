@@ -5,7 +5,7 @@
 package geanygopls
 
 /*
-#cgo pkgconfig: geany
+#cgo pkg-config: --static geany
 
 #include <geany/geanyplugin.h>
 #include <geany/plugindata.h>
