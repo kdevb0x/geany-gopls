@@ -1,0 +1,3 @@
+Package geany-gopls is my attempt at writing a geany plugin in Go to add gopls (golang.org/x/tools/gopls) and general support for LanguageServerProtocol into Geany (https://www.geany.org).
+
+
